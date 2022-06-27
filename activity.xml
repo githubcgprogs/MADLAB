@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="30dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-45dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="BMS Institute of Technology And Management"
+            android:textAllCaps="true"
+            android:textColor="#E61717"
+            android:textSize="17sp" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-61dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@id/textView"
+            app:srcCompat="@drawable/rlogo" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dr. Geeta Patil"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Associate Professor"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+91-97641-123424"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bangalore"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:geetapatil@bmsit.in"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Website:https://bmsit.ac.in"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+</LinearLayout>
